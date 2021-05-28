@@ -4,7 +4,6 @@
     <vendor email="jasoncorbett@gmail.com" url="https://github.com/jasoncorbett">Jason Corbett</vendor>
 
     <description><![CDATA[
-    <img src="https://raw.githubusercontent.com/jasoncorbett/more-black/main/screenshots/More%20Black.jpg"  width="300" />
     <p>Just like the Darcula theme, but replacing a lot of the grey backgrounds with black (not toolbars, or ), and
     a brighter white for text.  Overall it's a dark theme with more contrast than Darcula.</p>
     <p>Mostly this was inspired by me always copying darcula editor scheme and setting the background to

@@ -1,0 +1,28 @@
+<idea-plugin>
+    <id>org.jcorbett.more-black</id>
+    <name>More Black</name>
+    <vendor email="jasoncorbett@gmail.com" url="https://github.com/jasoncorbett">Jason Corbett</vendor>
+
+    <description><![CDATA[
+    <p>Just like the Darcula theme, but replacing a lot of the grey backgrounds with black (not toolbars, or ), and
+    a brighter white for text.  Overall it's a dark theme with more contrast than Darcula.</p>
+    <p>Mostly this was inspired by me always copying darcula editor scheme and setting the background to
+    black.  Then installing ColorIDE plugin to get other panes the same.  Unfortunately that isn't working
+    anymore, so this theme is born.</p>
+    <p>If you don't quite want it black, there's a theme called Darcula (Blacker) that's a little less than black.</p>
+    <img src="" />
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <themeProvider id="741d8af7-db2b-4477-90ce-71e0bcfaab3f" path="/More_Black.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>

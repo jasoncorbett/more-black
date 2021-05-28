@@ -1,0 +1,31 @@
+<scheme name="More Black" version="142" parent_scheme="Darcula">
+    <metaInfo>
+        <property name="created">2021-05-23T11:29:01</property>
+        <property name="ide">idea</property>
+        <property name="ideVersion">2021.1.1.0.0</property>
+        <property name="modified">2021-05-23T11:29:05</property>
+        <property name="originalScheme">More Black</property>
+    </metaInfo>
+    <colors>
+        <option name="CONSOLE_BACKGROUND_KEY" value="0" />
+    </colors>
+    <attributes>
+        <option name="CONSOLE_NORMAL_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="ebebeb" />
+            </value>
+        </option>
+        <option name="CONSOLE_SYSTEM_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="ebebeb" />
+            </value>
+        </option>
+        <option name="TEXT">
+            <value>
+                <option name="FOREGROUND" value="ebebeb" />
+                <option name="BACKGROUND" value="0" />
+                <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
+    </attributes>
+</scheme>

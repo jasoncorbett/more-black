@@ -1,0 +1,14 @@
+{
+  "name": "More Black",
+  "dark": true,
+  "author": "Jason Corbett",
+  "editorScheme": "/More_Black.xml",
+  "ui": {
+    "Tree.background": "#000000",
+    "Table.background": "#000000",
+    "SidePanel.background": "#000000",
+    "TitlePane.background": "#000000",
+    "List.background": "#000000",
+    "Editor.background": "#000000"
+  }
+}

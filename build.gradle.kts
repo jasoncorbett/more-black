@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "org.jcorbett"
-version = "1.0.0-3"
+version = "1.0.0-4"
 
 repositories {
     mavenCentral()
@@ -17,7 +17,7 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = "2021.2"
+    version = "2021.3"
 }
 tasks.getByName<Test>("test") {
     useJUnitPlatform()

@@ -1,10 +1,10 @@
 plugins {
-    id("org.jetbrains.intellij") version "0.7.3"
+    id("org.jetbrains.intellij") version "1.5.2"
     java
 }
 
 group = "org.jcorbett"
-version = "1.0.0-4"
+version = "1.0.0-5"
 
 repositories {
     mavenCentral()
@@ -17,11 +17,9 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = "2021.3"
+    version.set("2022.1")
 }
+
 tasks.getByName<Test>("test") {
     useJUnitPlatform()
-}
-tasks.getByName<org.jetbrains.intellij.tasks.PatchPluginXmlTask>("patchPluginXml") {
-    changeNotes("""Initial Theme Created""")
 }

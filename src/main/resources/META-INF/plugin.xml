@@ -24,4 +24,11 @@
     <actions>
         <!-- Add your actions here -->
     </actions>
+    <change-notes>
+        <![CDATA[
+        <ul>
+            <li>Upgrading to latest version of Intelij</li>
+        </ul>
+        ]]>
+    </change-notes>
 </idea-plugin>

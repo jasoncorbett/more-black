@@ -1,12 +1,15 @@
 plugins {
-    id("org.jetbrains.intellij") version "1.5.2"
+    id("org.jetbrains.intellij") version "1.13.2"
     java
 }
 
 group = "org.jcorbett"
-version = "1.0.0-5"
+version = "1.0.0-8"
 
 repositories {
+    maven("https://www.jetbrains.com/intellij-repository/releases")
+    maven("https://www.jetbrains.com/intellij-repository/snapshots")
+    maven("https://cache-redirector.jetbrains.com/intellij-dependencies")
     mavenCentral()
 }
 
@@ -17,9 +20,15 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version.set("2022.1")
+    version.set("LATEST-EAP-SNAPSHOT")
 }
 
 tasks.getByName<Test>("test") {
     useJUnitPlatform()
+}
+
+tasks {
+  buildSearchableOptions {
+    enabled = false
+  }
 }

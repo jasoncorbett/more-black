@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "org.jcorbett"
-version = "1.0.0-8"
+version = "1.0.0-9"
 
 repositories {
     maven("https://www.jetbrains.com/intellij-repository/releases")

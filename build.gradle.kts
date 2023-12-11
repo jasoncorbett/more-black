@@ -20,7 +20,8 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version.set("LATEST-EAP-SNAPSHOT")
+    version.set("2023.2")
+    updateSinceUntilBuild.set(false)
 }
 
 tasks.getByName<Test>("test") {

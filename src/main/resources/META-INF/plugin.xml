@@ -12,6 +12,8 @@
     <p>If you don't quite want it black, there's a theme called Darcula (Blacker) that's a little less than black.</p>
     ]]></description>
 
+    <idea-version since-build="232"/>
+
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
          on how to target different products -->
     <depends>com.intellij.modules.platform</depends>

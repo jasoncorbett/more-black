@@ -1,10 +1,10 @@
 plugins {
-    id("org.jetbrains.intellij") version "1.13.2"
+    id("org.jetbrains.intellij") version "1.16.1"
     java
 }
 
 group = "org.jcorbett"
-version = "1.0.0-9"
+version = "1.0.0-10"
 
 repositories {
     maven("https://www.jetbrains.com/intellij-repository/releases")
